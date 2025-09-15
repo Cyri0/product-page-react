@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        img{
+            width: 100px;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            gap: 10px;
+
+            a {
+                color: gray;
+                text-decoration: none;
+            }
+        }
+
+        img.cart{
+            width: 30px;
+        }
+        img.avatar{
+            width: 50px;
+        }
+    }
+}
